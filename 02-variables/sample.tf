@@ -69,7 +69,7 @@ output "map1_name" {
 # terraform.tfvars  -> This file will be picked automatically
 variable "x2" {}
 
-# dev.tfvars, prod.tfvars -> this needs to be exclusively passed with -var-file from cli
+# dev.tfvars, prod.tfvars -> this needs to be exclusively passed with -var-file dev.tfvars from cli
 variable "x3_env" {}
 
 output "x3_env" {
