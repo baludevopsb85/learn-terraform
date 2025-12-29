@@ -81,3 +81,7 @@ variable "x4" {}
 output "x4" {
   value = var.x4
 }
+
+# dev.tfvars must be explicitly passed using -var-file.
+
+# dev.auto.tfvars is automatically loaded by Terraform without specifying it, if present in the working directory.
